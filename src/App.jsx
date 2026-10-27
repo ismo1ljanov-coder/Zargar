@@ -1084,7 +1084,7 @@ export default function XazinaApp() {
             </motion.div>
           )}
         </AnimatePresence>
-        {booted && !["chat", "liveTrip"].includes(screen) && (
+        {booted && !["chat", "itinerary", "liveTrip"].includes(screen) && (
           <BottomNav screen={screen} setScreen={setScreen} dark={dark} lang={lang} />
         )}
       </div>
